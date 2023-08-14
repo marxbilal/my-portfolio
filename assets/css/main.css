@@ -33,6 +33,18 @@ body {
 	line-height: 1;
 }
 
+#mylist {
+text-align: left;
+font-style:normal;
+
+}
+
+
+#mylist2 {
+	text-align: left;
+	font-style:normal;
+	
+	}
 
 .skills-list {
     list-style: none;
@@ -2861,7 +2873,7 @@ input, select, textarea {
 
 /* List */
 
-	ol {
+	 ol {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
 		padding-left: 1.25rem;
@@ -2869,7 +2881,7 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25rem;
-		}
+		} 
 
 	ul {
 		list-style: disc;
@@ -2945,28 +2957,7 @@ input, select, textarea {
 		}
 
 		header > p {
-			font-style: italic;
-		}
-
-		header > h1 + p {
-			font-size: 1.1rem;
-			margin-top: -0.5rem;
-			line-height: 2;
-		}
-
-		header > h2 + p {
-			font-size: 1rem;
-			margin-top: -0.75rem;
-		}
-
-		header > h3 + p {
-			font-size: 0.9rem;
-			margin-top: -0.75rem;
-		}
-
-		header > h4 + p {
-			font-size: 0.8rem;
-			margin-top: -0.75rem;
+			font-style:normal;
 		}
 
 		header.major {
